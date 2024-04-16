@@ -1,0 +1,49 @@
+.avatar{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.img-profile
+{
+    border-radius: 50%;
+    padding: 20px;
+
+}
+#main-page
+{
+    display: flex;
+}
+.img-profile img{
+    border-radius: 50%;
+}
+h3{
+margin:0px 2px;
+justify-content: center;
+align-items: center;
+}
+.search-btn-main
+{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin-right: 0px;
+    margin-left:900px;
+    border-radius: 9px;
+}
+.search-btn 
+{
+    /* padding: 10px; */
+   width: 30px;
+   margin-right: 50px;
+   justify-content: center;
+   align-items: center;
+    text-decoration: none;
+}
+.search-btn link{
+    text-decoration: none;
+    color: black;
+}
+.nav-inner-box
+{
+    display: flex;
+    
+}

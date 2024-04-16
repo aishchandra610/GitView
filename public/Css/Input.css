@@ -1,0 +1,86 @@
+
+.main-page
+{
+    
+    background-image: url('https://images.unsplash.com/photo-1477949331575-2763034b5fb5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    border: 1px solid grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: bold;
+}
+.input-box
+{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius:10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.input-container {
+    background-image: url('/images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: white; 
+    padding: 20px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  input
+  {
+    padding: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .submit-btn
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  button[type="submit"]:hover {
+    background-color: grey;
+  }
+  .lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nova-square-regular {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  
