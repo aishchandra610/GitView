@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
- const username=prompt('emter user name');
+//  const username=prompt('emter user name');
   return (
     <BrowserRouter>
       <Routes>

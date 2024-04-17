@@ -7,13 +7,15 @@ function Repository({ user, repo }) {
     <div className="repo">
       <div>
         <div className="title">
-          <i className="fa fa-book pr-1" />
+        {/* className="fa fa-book pr-1" */}
+          <i  />
           <a
             href={`https://github.com/${repo.full_name}`}
             target="_blank"
             rel="noopener norefferer"
+            className='repo-name-anchor'
           >
-            <span>{repo.name}</span>
+            <span className='repo-link'>{repo.name}</span>
           </a>
         </div>
         <span className="description">{repo.description}</span>
@@ -21,15 +23,15 @@ function Repository({ user, repo }) {
       <div className="d-flex">
         <div className="subitem">
           <i className="fa fa-code pr-1" />
-          <span>{repo.language}</span>
+          <span>{repo.language}<span>:Language</span></span>
         </div>
         <div className="subitem">
           <i className="fa fa-star pr-1" />
-          <span>{repo.stargazers_count}</span>
+          <span>{repo.stargazers_count}<span>:Count</span></span>
         </div>
         <div className="subitem">
           <i className="fa fa-code-fork pr-1" />
-          <span>{repo.forks_count}</span>
+          <span>{repo.forks_count}<span>:Forks</span></span>
         </div>
       </div>
     </div>

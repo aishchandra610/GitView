@@ -11,9 +11,9 @@ function Navbar({ user }) {
             width='50' height='50'
             alt="user" /></div>
 
-          <h3 style={{ color: "black" }}>{user.name}</h3>
+          <h3 style={{ color: "white" }}>{user.name}</h3>
           <div className='search-btn-main'>
-            <div className='search-btn'><Link to="/" className="ml-auto d-flex align-items-center" >Search</Link></div>
+            <div className='search-btn'><Link to="/" className='link' >Search</Link></div>
           </div>
         {/* </div> */}
       </nav>

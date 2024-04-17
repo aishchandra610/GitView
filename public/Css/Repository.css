@@ -24,8 +24,8 @@
 background: rgba(255, 255, 255, 0.52);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(20px);
--webkit-backdrop-filter: blur(20px);
+/* backdrop-filter: blur(20px); */
+/* -webkit-backdrop-filter: blur(20px); */
 border: 1px solid rgba(255, 255, 255, 0.91);
     
   }
@@ -33,14 +33,15 @@ border: 1px solid rgba(255, 255, 255, 0.91);
   .repo:hover {
     transform: scale(1.1, 1.1);
     filter: invert(1);
+    
   }
   
   .title {
     overflow: hidden;
     text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
+    /* display: -webkit-box; */
+    /* -webkit-box-orient: vertical; */
+    /* -webkit-line-clamp: 1; */
     line-height: 1.5rem;
     max-height: 1.5rem;
   }
@@ -53,12 +54,12 @@ border: 1px solid rgba(255, 255, 255, 0.91);
   .description {
     font-size: 14px;
     
-    color: black;
+    color: white;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    /* display: -webkit-box; */
+    /* -webkit-box-orient: vertical; */
+    /* -webkit-line-clamp: 2; */
     line-height: 1.5rem;
     max-height: 3rem;
   }
@@ -68,4 +69,19 @@ border: 1px solid rgba(255, 255, 255, 0.91);
     font-size: 12px;
     margin-top: 10px;
     margin-right: 10px;
+  }
+  .repo-link:hover{
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .repo-name-anchor
+  {
+    text-decoration: none;
+    color: white;
+  }
+  .repo-name-anchor:hover
+  {
+    color: whitesmoke;
   }

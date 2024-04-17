@@ -10,7 +10,7 @@ function Userinfo({user}) {
                 className="p-2 avatar"
             alt="" />
         <div  className="user"> 
-            <h5>{user.name} </h5>
+            <h5> <b>{user.name}</b></h5>
             
             { user.location &&(
             <div className="info">
